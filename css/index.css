@@ -279,6 +279,8 @@ footer nav a {
 
 .containerAboutAB {
     display: flex;  
+    border: dashed hidden hidden hidden  black 1px; 
+    
 }
 
 
