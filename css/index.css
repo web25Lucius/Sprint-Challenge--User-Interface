@@ -116,7 +116,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/* taking .box and seperating it out ten times.  will .box break anything else? */
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -269,4 +269,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.pageContainer{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about{
+    display: flex; 
+    flex-direction: column; 
 }
