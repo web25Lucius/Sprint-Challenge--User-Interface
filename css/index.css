@@ -278,20 +278,26 @@ footer nav a {
 
 
 .containerAboutAB {
-    display: flex;  
-    border: dashed hidden hidden hidden  black 1px; 
+    display: flex; 
+    margin: 8px;  
+    border: black 1px; 
+    border-style: dashed hidden hidden hidden; 
     
 }
 
 
 .about1a{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+    border: black 1px; 
+    border-style: hidden hidden dashed hidden;  
 }
 
 .about1b{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    border: black 1px; 
+    border-style: hidden hidden dashed hidden;    
 }
 
 
@@ -301,11 +307,23 @@ footer nav a {
 
 .about1c {
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    border: black 1px; 
+    border-style: hidden hidden dashed hidden;  
 }
 
 .about1d {
     display:flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    border: black 1px; 
+    border-style: hidden hidden dashed hidden;  
 }
 
+.button {
+    border: solid black 2.5px; 
+    border-radius: 15px; 
+    padding: 10px; 
+    width: 150px; 
+    margin: 8px; 
+    
+}
