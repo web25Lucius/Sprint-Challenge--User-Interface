@@ -276,7 +276,18 @@ footer nav a {
     margin: 0 auto;
 }
 
-.about{
-    display: flex; 
-    flex-direction: column; 
+
+.containerAboutAB {
+    display: flex;  
+}
+
+
+.about1a{
+    display: flex;
+    flex-direction: column;   
+}
+
+.about1b{
+    display: flex;
+    flex-direction: column;   
 }
