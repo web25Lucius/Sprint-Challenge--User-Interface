@@ -291,3 +291,19 @@ footer nav a {
     display: flex;
     flex-direction: column;   
 }
+
+
+.containerAboutCD {
+    display: flex;  
+}
+
+.about1c {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.about1d {
+    display:flex; 
+    flex-direction: column; 
+}
+
