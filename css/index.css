@@ -276,6 +276,13 @@ footer nav a {
     margin: 0 auto;
 }
 
+h4 {
+    padding: 15px; 
+}
+
+.navContainer {
+    padding: 15px; 
+}
 
 .containerAboutAB {
     display: flex; 
