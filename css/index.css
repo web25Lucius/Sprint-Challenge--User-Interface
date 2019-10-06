@@ -279,9 +279,10 @@ footer nav a {
 
 .containerAboutAB {
     display: flex; 
-    margin: 8px;  
+    margin: 10px;  
     border: black 1px; 
     border-style: dashed hidden hidden hidden; 
+    justify-content: space-around; 
     
 }
 
@@ -291,18 +292,22 @@ footer nav a {
     flex-direction: column; 
     border: black 1px; 
     border-style: hidden hidden dashed hidden;  
+    padding: 30px; 
 }
 
 .about1b{
     display: flex;
     flex-direction: column;
     border: black 1px; 
-    border-style: hidden hidden dashed hidden;    
+    border-style: hidden hidden dashed hidden; 
+    padding: 30px;    
 }
 
 
 .containerAboutCD {
     display: flex;  
+    justify-content: space-around; 
+    
 }
 
 .about1c {
@@ -310,13 +315,17 @@ footer nav a {
     flex-direction: column;
     border: black 1px; 
     border-style: hidden hidden dashed hidden;  
+    justify-content: space-around; 
+    padding: 30px; 
 }
 
 .about1d {
     display:flex; 
     flex-direction: column;
     border: black 1px; 
-    border-style: hidden hidden dashed hidden;  
+    border-style: hidden hidden dashed hidden;
+    justify-content: space-around;  
+    padding: 30px;  
 }
 
 .button {
