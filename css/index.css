@@ -377,15 +377,22 @@ h4 {
     }
 
 .prodMainText h4 {
-    padding: 100px 20px 0 0; 
+    padding: 20px 20px 0 10px; 
 }
 
 .prodWrapper{
     display: flex; 
-    flex-direction: column;
+    padding:  15px 0 0 0; 
     font-weight: bolder;
-    padding:  0 0 0 500px; 
+    font-size: 24px; 
     text-align: center;
+}
+
+#annoTxt   {
+    font-size: 30px; 
+    font-weight: bolder
+    
+    
 }
 
 article{
@@ -395,13 +402,18 @@ article{
 }
 
 .prodWRAP{
-    width: 1000px; 
+    width: 800px; 
+    margin: 0 auto; 
 }
 
+.addPd{
+    padding: 10px 0 10px 30px; 
+}
 .flexImgs{
     display: flex; 
     width: auto; 
-    padding: 0 10px 0 10px; 
+    /* padding: 0 10px 0 10px;  */
+    margin: 0 auto; 
 }
 
 #block{
@@ -409,4 +421,9 @@ article{
     text-align: center;
     font-size: larger;
     padding: 20px; 
+}
+
+#moveDown {
+    padding: 80px 0 0 0; 
+    font-size: 40px; 
 }
