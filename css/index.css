@@ -82,6 +82,12 @@ nav{
     justify-content: space-around;  
 }
 
+.lambdaLogo{
+    padding: 0 0 50px 0;
+    margin: 0 0 0 -38px;  
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -290,10 +296,13 @@ h4 {
     border: black 1px; 
     border-style: dashed hidden hidden hidden; 
     justify-content: space-around; 
+    padding: 0 0 0 15px; 
     
 }
 
-
+#moveRt{
+    padding: 0 0 0 15px; 
+}
 .about1a{
     display: flex;
     flex-direction: column; 
@@ -343,3 +352,4 @@ h4 {
     margin: 8px; 
     
 }
+
