@@ -296,7 +296,7 @@ h4 {
     border: black 1px; 
     border-style: dashed hidden hidden hidden; 
     justify-content: space-around; 
-    padding: 0 0 0 15px; 
+    padding: 0 0 0 20px; 
     
 }
 
@@ -323,6 +323,7 @@ h4 {
 .containerAboutCD {
     display: flex;  
     justify-content: space-around; 
+    padding: 0 0 0 15px; 
     
 }
 
@@ -353,3 +354,6 @@ h4 {
     
 }
 
+#addPadding{
+    padding: 0 0 0 15px; 
+}
