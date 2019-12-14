@@ -357,3 +357,56 @@ h4 {
 #addPadding{
     padding: 0 0 0 15px; 
 }
+
+.product{
+    height: 300px; 
+    width: 400px; 
+}
+
+#stopHand{
+    justify-content: center;
+    height: 300px; 
+    width: 500px; 
+}
+
+.prodMainText{
+    display: flex; 
+    text-align: left;
+    padding: 10px 0 0 70px; 
+    align-content: center;
+    }
+
+.prodMainText h4 {
+    padding: 100px 20px 0 0; 
+}
+
+.prodWrapper{
+    display: flex; 
+    flex-direction: column;
+    font-weight: bolder;
+    padding:  0 0 0 500px; 
+    text-align: center;
+}
+
+article{
+    display: flex;
+    width: auto; 
+    padding: 10px 0 10px 150px; 
+}
+
+.prodWRAP{
+    width: 1000px; 
+}
+
+.flexImgs{
+    display: flex; 
+    width: auto; 
+    padding: 0 10px 0 10px; 
+}
+
+#block{
+    display: block; 
+    text-align: center;
+    font-size: larger;
+    padding: 20px; 
+}
