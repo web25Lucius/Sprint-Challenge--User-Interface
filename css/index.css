@@ -82,6 +82,12 @@ nav{
     justify-content: space-around;  
 }
 
+.lambdaLogo{
+    padding: 0 0 50px 0;
+    margin: 0 0 0 -38px;  
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -290,10 +296,13 @@ h4 {
     border: black 1px; 
     border-style: dashed hidden hidden hidden; 
     justify-content: space-around; 
+    padding: 0 0 0 20px; 
     
 }
 
-
+#moveRt{
+    padding: 0 0 0 15px; 
+}
 .about1a{
     display: flex;
     flex-direction: column; 
@@ -314,6 +323,7 @@ h4 {
 .containerAboutCD {
     display: flex;  
     justify-content: space-around; 
+    padding: 0 0 0 15px; 
     
 }
 
@@ -342,4 +352,87 @@ h4 {
     width: 150px; 
     margin: 8px; 
     
+}
+
+#addPadding{
+    padding: 0 0 0 15px; 
+}
+
+.product{
+    height: 300px; 
+    width: 400px; 
+}
+
+#stopHand{
+    justify-content: center;
+    height: 300px; 
+    width: 500px; 
+}
+
+.prodMainText{
+    display: flex; 
+    text-align: left;
+    padding: 10px 0 0 70px; 
+    align-content: center;
+    }
+
+.prodMainText h4 {
+    padding: 20px 20px 0 10px; 
+}
+
+.prodWrapper{
+    display: flex; 
+    padding:  15px 0 0 0; 
+    font-weight: bolder;
+    font-size: 24px; 
+    text-align: center;
+}
+
+#annoTxt   {
+    font-size: 30px; 
+    font-weight: bolder
+    
+    
+}
+
+article{
+    display: flex;
+    width: auto; 
+    padding: 10px 0 10px 150px; 
+}
+
+.prodWRAP{
+    width: 800px; 
+    margin: 0 auto; 
+}
+
+.addPd{
+    padding: 10px 0 10px 30px; 
+}
+.flexImgs{
+    display: flex; 
+    width: auto; 
+    /* padding: 0 10px 0 10px;  */
+    margin: 0 auto; 
+}
+
+#block{
+    display: block; 
+    text-align: center;
+    font-size: larger;
+    padding: 20px; 
+}
+
+#moveDown {
+    padding: 80px 0 0 0; 
+    font-size: 40px; 
+}
+
+.contWrap{
+    width: 800px; 
+    margin: 0 auto; 
+}
+
+address {
+    padding: 0 0 0 15px; 
 }
